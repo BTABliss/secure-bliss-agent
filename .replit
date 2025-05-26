@@ -1,0 +1,6 @@
+run = "git commit -m \"Initial commit of B.L.I.S.S. Protocol agent\""
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "git commit -m \"Initial commit of B.L.I.S.S. Protocol agent\""]
